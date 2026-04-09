@@ -1,0 +1,71 @@
+<html>
+<head>
+    <title>Form Pendaftaran</title>
+    <link rel="stylesheet" href="sumatifnobel.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Form Pendaftaran</h2>
+
+    <form>
+        <p class="info">Isi data dengan teliti, semua informasi akan digunakan untuk keperluan administrasi.</p>
+
+        <label>Nama Lengkap *</label>
+        <input type="text" placeholder="cth: Siti Aisyah" required>
+
+        <label>Kelas / Tingkatan *</label>
+        <input type="text" placeholder="cth: XII MIPA 3" required>
+
+        <label>Jenis Kelamin*</label>
+        <div class="radio-group">
+            <label>
+			<input type="radio" name="jk"> Laki-laki
+			</label>
+            <label>
+			<input type="radio" name="jk"> Perempuan
+			</label>
+            <label>
+			<input type="radio" name="jk"> Lainnya
+			</label>
+        </div>
+
+        <label>Ekstrakurikuler yang diminati*</label>
+        <div class="checkbox-group">
+            <label>
+			<input type="checkbox"> Basket
+			</label>
+            <label>
+			<input type="checkbox"> Futsal
+			</label>
+            <label>
+			<input type="checkbox"> Paduan Suara
+			</label>
+        </div>
+
+        <label>Pilih Jadwal Belajar *wajib</label>
+        <div class="radio-group">
+            <label>
+			<input type="radio" name="jadwal"> Pagi (07.00 - 12.00)</label>
+            <label>
+			<input type="radio" name="jadwal"> Siang (12.30 - 17.00)
+			</label>
+            <label>
+			<input type="radio" name="jadwal"> Sore (17.30 - 20.30)
+			</label>
+            <label>
+			<input type="radio" name="jadwal"> Campuran (fleksibel)
+			</label>
+        </div>
+
+        
+        <div class="button-group">
+            <button type="submit" class="btn-submit">Daftar Sekarang</button>
+            <button type="reset" class="btn-reset">Reset Formulir</button>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
+
